@@ -28,7 +28,7 @@ Try the same exercise for Nim or Crystal and the lack of relevant results outsid
 
 Since I have ruled out both the Toylang and the Uberlang paths as academic dead-ends without practical applications, it would make sense to pick the largest and most well established Swiss Army Knife in programming (C++) and set about making it noob friendly with the aid of a header file.
 
-I have created a GitHub repo for that purpose.
+I have created a [GitHub repo for that purpose](https://github.com/sammi-turner/Sugar-Hpp).
 
 The aim is not to provide any new functionality, but rather to make basic functionality in the terminal easy to understand, pleasing to the eye, and quick to type out for the beginner.
 
