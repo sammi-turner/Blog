@@ -28,9 +28,7 @@ Try the same exercise for Nim or Crystal and the lack of relevant results outsid
 
 Since I have ruled out both the Toylang and the Uberlang paths as academic dead-ends without practical applications, it would make sense to pick the largest and most well established Swiss Army Knife in programming (C++) and set about making it noob friendly with the aid of a header file.
 
-I have created a GitHub repo for that purpose. At the the last edit, it contains only 182 SLOC and a README file.
-
-4 macros, 18 functions, 15 system headers and 13 using declarations.
+I have created a GitHub repo for that purpose.
 
 The aim is not to provide any new functionality, but rather to make basic functionality in the terminal easy to understand, pleasing to the eye, and quick to type out for the beginner.
 
@@ -63,3 +61,11 @@ Although the benchmarks of Python are unlikely to cause issues with simple termi
 ## But is it memory safe?
 
 Nothing in the Sugar header file or the basic functionality that I have mentioned involves the use of, let alone the misuse, of raw pointers. So Sugar itself is perfectly safe.
+
+## Programs using Sugar-Hpp
+
+A [todos app](https://github.com/sammi-turner/Sugar-Todos).
+
+A command-line [version of Yahtzee](https://github.com/sammi-turner/Sugar-Yahtzee).
+
+A meta-programming version of [Hello World](https://github.com/sammi-turner/Hello-Metaworld).
