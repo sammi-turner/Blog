@@ -11,7 +11,7 @@ a guy named Chris.
 
 So I had to look up NIH on Wikipedia...
 
-In computer programming, "NIH syndrome" refers to the erroneous belief that in-house developments are inherently better suited, more secure, more controlled,
+> In computer programming, "NIH syndrome" refers to the erroneous belief that in-house developments are inherently better suited, more secure, more controlled,
 quicker to develop, and incur lower overall cost (including maintenance cost) than using existing implementations.
 
 Whenever I hear discussions about the wrongness or rightness of "reinventing the wheel" with a particular piece of software or an ecosystem of software, I think there are a
