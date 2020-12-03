@@ -2,14 +2,12 @@
 
 I was idly scrolling through the comments of a YouTube video taken from a conference presentation given by the [indie game developer Jonathan Blow](https://www.youtube.com/watch?v=uZgbKrDEzAs), when I saw this comment.
 
-Interestingly, the presentation software he uses is written in Jai and he's done it because "PowerPoint wasn't addressing his needs".
+> Interestingly, the presentation software he uses is written in Jai and he's done it because "PowerPoint wasn't addressing his needs".
 
 Jai is the programming language that Blow is working on, and Jai was also the subject of the talk. The replies to that comment quickly became a flame war after this response by
 a guy named Chris.
 
-Worst case of NIH I’ve ever seen. This is quite unfortunate, as we need both languages and paradigm shifts for game/simulation programming, however he thoroughly misunderstands
-(or deliberately misrepresents) several basic computer science principles that are still needed and used. He may be bright, but there are plenty of bright people out there that
-can skillfully deduce when to apply a paradigm and when not to. This binary thinking he employs (not just on computer science) is getting in his way.
+> Worst case of NIH I’ve ever seen. This is quite unfortunate, as we need both languages and paradigm shifts for game/simulation programming, however he thoroughly misunderstands (or deliberately misrepresents) several basic computer science principles that are still needed and used. He may be bright, but there are plenty of bright people out there that can skillfully deduce when to apply a paradigm and when not to. This binary thinking he employs (not just on computer science) is getting in his way.
 
 So I had to look up NIH on Wikipedia...
 
