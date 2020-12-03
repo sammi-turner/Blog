@@ -1,4 +1,4 @@
-# Learn Markdown in Two Minutes
+# Learn Markdown Basics in Two Minutes
 
 ## Just The Basics
 
