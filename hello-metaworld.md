@@ -57,8 +57,6 @@ The concept of a "program that writes programs".
 generate, analyse or transform other programs, and even modify itself while running. In some cases, this allows programmers to minimise the number of lines of code to express a
 solution, in turn reducing development time. It also allows programs greater flexibility to efficiently handle new situations without recompilation.
 
-But why tho?
-
-*shrug*
+But why?
 
 [Reasons](https://www.youtube.com/watch?v=SWU_DgjSwRU).
