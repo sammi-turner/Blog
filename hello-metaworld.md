@@ -24,7 +24,7 @@ int main() {
   hello[3] = "  say \"Hello Metaworld\\n\";";
   hello[4] = "}";
 
-  for (int i=0; i<5; i++) {
+  loopThrough(i, 5) {
     line = hello[i] + "\n";
     fileAppend("meta.cpp", line);
   }
@@ -33,7 +33,9 @@ int main() {
 }
 ```
 
-The 'say' and 'fileAppend' functions belong to the Sugar header file and are only there to simplify the code in 'main.cpp'. Both child and parent programs use this header.
+The 'say', 'loopThrough' and 'fileAppend' functions belong to the 'sugar.hpp' header file.
+
+They are only there to simplify the code in 'main.cpp'. Both child and parent programs use this header.
 
 The child program is embedded in the five line 'Hello' array.
 
