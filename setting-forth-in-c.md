@@ -54,7 +54,7 @@ Instead, I will present the following program as an appetiser.
 #include <stdlib.h>
 #include <string.h>
 
-char* getVedder() {
+char *getVedder() {
   char *eddieVedder;
   eddieVedder = malloc(sizeof(char) * 50);
   strcpy(eddieVedder, "I'm freeeee!\nSetting forth in the universe...");
@@ -66,11 +66,17 @@ int main() {
   chorus = getVedder();
   printf("%s\n\n%s\n\n", chorus, chorus);
   free(chorus);
-  system("pause"); // Windows Only
+  system("pause"); /* Windows Only */
 }
 ```
 
-The line marked "Windows Only" is used when double clicking on Windows executables and should be deleted before compilation on Linux and MacOS machines.
+### Why are there so many damn asterisks in there?
+
+1. The line marked "Windows Only" is used when double clicking on Windows executables and should be deleted before compilation on Linux and MacOS machines. In common with many other programming languages, C uses the '/*' and '*/' tokens as comment delimiters.
+
+2. Nearly all programming languages use a single asterisk to denote multiplication, and so does this code snippet, on the second line of the '*getVedder()' function body.
+
+3. The signature line of the 'getVedder()' function, the declaration of 'eddieVedder', and the declaration of 'chorus' have an asterisk in front of them. This denotes that the function returns [a pointer]() to a char, rather than a plain old single value. But be warned that putting that asterisk after 'char' or between 'char' and the identifier has the same meaning in C. So expect to see that notation elsewhere!
 
 ### What is the output of that program?
 
