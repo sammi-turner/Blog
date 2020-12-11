@@ -82,7 +82,7 @@ After successful compilation, running the executable makes your terminal emulato
 
 Of course, we could do that with a simple 'printf' statement in the main function. But that wouldn't help us explain dynamic memory allocation, would it?
 
-So instead, we shall pass a pointer to a char array as a parameter, to our 'getVedder()' function.
+So instead, we make our "getVedder()" function borrow some bytes from the operating system with "malloc", and then call "free()" when we no longer need them.
 
 ## What does getVedder() do?
 
