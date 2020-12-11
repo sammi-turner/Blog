@@ -64,9 +64,9 @@ char* getVedder() {
 int main() {
   char *chorus;
   chorus = getVedder();
-  printf ("%s\n\n%s\n\n", chorus, chorus);
-  system("pause"); // Windows Only
+  printf("%s\n\n%s\n\n", chorus, chorus);
   free(chorus);
+  system("pause"); // Windows Only
 }
 ```
 
@@ -92,8 +92,8 @@ So instead, we shall pass a pointer to a char array as a parameter, to our 'getV
 1. Declares a pointer to a 'chorus' array.
 2. Sets chorus equal to the result of calling 'getVedder()'
 3. Prints a format string where '%s' is a placeholder for 'chorus' and '\n' is a line break.
-4. On Windows, execution of the program is paused, and the user is prompted to "press any key".
-5. Frees up the memory borrowed earlier using malloc.
+4. Frees up the memory borrowed earlier using malloc.
+5. On Windows, execution of the program is paused, and the user is prompted to "press any key".
 
 ### Okay, that was fun. What now?
 
