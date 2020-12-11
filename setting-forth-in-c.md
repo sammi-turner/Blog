@@ -97,12 +97,7 @@ So instead, we shall pass a pointer to a char array as a parameter, to our 'getV
 
 ### Okay, that was fun. What now?
 
-Read books on C. Including [K & R](https://en.wikipedia.org/wiki/The_C_Programming_Language).
-
-Second hand copies or PDF downloads are by far the most affordable options.
-
-Screw Udemy. You don't need them.
-
-Write non-trivial programs in C.
-
-Experiment. Enjoy yourself!
+* Read books on C. Including [K & R](https://en.wikipedia.org/wiki/The_C_Programming_Language).
+* Second hand copies or PDF downloads are by far the most affordable options. Screw Udemy. You don't need them.
+* Write non-trivial programs in C.
+* Experiment. Enjoy yourself!
