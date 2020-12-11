@@ -102,3 +102,4 @@ So instead, we shall pass a pointer to a char array as a parameter, to our 'getV
 * Feed cryptic error messages and unanswered questions into your search engine of choice.
 * Write non-trivial programs in C.
 * Experiment. Enjoy yourself!
+* Read the follow up to this post....
