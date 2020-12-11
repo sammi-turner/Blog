@@ -80,7 +80,7 @@ int main() {
 
 After successful compilation, running the executable makes your terminal emulator sing the chorus from "Setting Forth".
 
-Of course, we could do that with a simple 'printf' statement in the main function. But that wouldn't help us explain dynamic memory allocation, would it?
+Of course, we could do that with a simple "printf" statement in the main function. But that wouldn't help us explain dynamic memory allocation, would it?
 
 So instead, we make our "getVedder()" function borrow some bytes from the operating system with "malloc", and then call "free()" when we no longer need them.
 
