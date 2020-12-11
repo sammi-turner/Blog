@@ -31,9 +31,7 @@ Those languages also have features like "string" or "vector" data types, which C
 
 The standard library of C is also rather sparse, and the APIs provided are platform-specific to Windows, MacOS, GNU/Linux, etc.
 
-## FAQs
-
-### Why does C handle memory differently than most other languages?
+## Why does C handle memory differently than most other languages?
 
 C was creaated in a time when hardware constraints were a much more pressing concern than they are now (December 2020).
 
@@ -41,7 +39,7 @@ But even today, C is widely used in resource-constrained environments like devic
 
 C is also still popular in the GNU/Linux desktop userland, which has a culture of writing applications that are not resource-heavy.
 
-### What the heck is a pointer anyway?
+## What the heck is a pointer anyway?
 
 Sadly, the more general and abstract the discussion gets with regard to pointers, the more confused the student is likely to get.
 
@@ -70,7 +68,7 @@ int main() {
 }
 ```
 
-### Why are there so many damn asterisks in there?
+## Why are there so many damn asterisks in there?
 
 1. The line marked "Windows Only" is used when double clicking on Windows executables and should be deleted before compilation on Linux and MacOS machines. In common with many other programming languages, C uses the '/*' and '*/' tokens as comment delimiters.
 
@@ -78,7 +76,7 @@ int main() {
 
 3. The signature line of the 'getVedder()' function, the declaration of 'eddieVedder', and the declaration of 'chorus' have an asterisk in front of them. This denotes that the function returns [a pointer]() to a char, rather than a plain old single value. But be warned that putting that asterisk after 'char' or between 'char' and the identifier has the same meaning in C. So expect to see that notation elsewhere!
 
-### What is the output of that program?
+## What is the output of that program?
 
 After successful compilation, running the executable makes your terminal emulator sing the chorus from "Setting Forth".
 
@@ -86,14 +84,14 @@ Of course, we could do that with a simple 'printf' statement in the main functio
 
 So instead, we shall pass a pointer to a char array as a parameter, to our 'getVedder()' function.
 
-### What does getVedder() do?
+## What does getVedder() do?
 
 1. Declares a pointer to a local 'eddieVedder' array.
 2. Reserves a chunk of memory for the array using 'malloc'.
 3. Copies our hard-coded lyrics to the array.
 4. Returns the array.
 
-### What does the main function do?
+## What does the main function do?
 
 1. Declares a pointer to a 'chorus' array.
 2. Sets chorus equal to the result of calling 'getVedder()'
@@ -101,7 +99,7 @@ So instead, we shall pass a pointer to a char array as a parameter, to our 'getV
 4. Frees up the memory borrowed earlier using malloc.
 5. On Windows, execution of the program is paused, and the user is prompted to "press any key".
 
-### Okay, that was fun. What now?
+## Okay, that was fun. What now?
 
 * Read books on C. Including [K & R](https://en.wikipedia.org/wiki/The_C_Programming_Language). Second hand copies or PDF downloads are by far the most affordable options.
 * Screw Udemy. You don't need them.
