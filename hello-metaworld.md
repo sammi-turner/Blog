@@ -9,7 +9,9 @@ the operator understands how to use it.
 
 By contrast, a [Hello, Metaworld!](https://github.com/sammi-turner/Hello-Metaworld) program, is a parent computer program that when run, produces a child program that yields the output "Hello, Metaworld!".
 
-Here is an example of such a program, written in C++, using the LLVM compiler. Although substituting LLVM for a different C++ compiler should be trivial.
+Here is an example of such a program, written in C++, using the GNU compiler.
+
+Although this version was written for Linux, changing it for Windows should be trivial.
 
 ```
 #include "sugar.hpp"
@@ -29,7 +31,7 @@ int main() {
     fileAppend("meta.cpp", line);
   }
 
-  system("clang++ meta.cpp -o meta && ./meta");
+  system("g++ meta.cpp -o meta && ./meta");
 }
 ```
 
