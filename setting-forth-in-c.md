@@ -87,23 +87,17 @@ This will produce an exectubale file with the name "a" and either the file exten
 
 From the folder containing the executable, run
 
-This command on Windows :
+Run this command on Windows CMD :
 
 ```
-./a.exe
+>a.exe
 ```
 
 Or this command on GNU/Linux :
 
 ```
-./a.out
+$ ./a.out
 ```
-
-## That's a lot of typing. Any shortcuts?
-
-Yes. By using Bash aliases.
-
-Bash is the default shell on most Linux distros and is also available on Windows with GitBash.
 
 ## Why are there so many damn asterisks in there?
 
