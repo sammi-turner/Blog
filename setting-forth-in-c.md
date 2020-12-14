@@ -118,7 +118,7 @@ So instead, we make our "getVedder()" function borrow some bytes from the operat
 1. Declares a pointer to a local "eddieVedder" array.
 2. Reserves a chunk of memory for the array using "malloc".
 3. Copies our hard-coded lyrics to the array.
-4. Returns the array.
+4. Returns a pointer to the array.
 
 ## What does the main function do?
 
@@ -127,7 +127,7 @@ So instead, we make our "getVedder()" function borrow some bytes from the operat
 3. Prints a format string where percent-s is a placeholder for "chorus" and slash-n denotes a line break.
 4. Frees up the memory borrowed earlier using malloc.
 
-## Okay, that was fun. What now?
+## Okay, that was cool. What now?
 
 * Read books on C.
 * Read online reference material relating to C.
