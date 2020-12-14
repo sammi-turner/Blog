@@ -107,11 +107,9 @@ Bash is the default shell on most Linux distros and is also available on Windows
 
 ## Why are there so many damn asterisks in there?
 
-1. The line marked "Windows Only" is used when double clicking on Windows executables and should be deleted before compilation on Linux and MacOS machines. In common with many other programming languages, C uses the asterisk symbol in its comment delimiters.
+1. Nearly all programming languages use a single asterisk to denote multiplication, and so does this code snippet, on the second line of the '*getVedder()' function body.
 
-2. Nearly all programming languages use a single asterisk to denote multiplication, and so does this code snippet, on the second line of the '*getVedder()' function body.
-
-3. The signature line of the 'getVedder()' function, the declaration of 'eddieVedder', and the declaration of 'chorus' have an asterisk in front of them. This denotes that the function returns [a pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) to a char, rather than a plain old single value. But be warned that putting an asterisk after 'char' or between 'char' and the identifier has the same meaning in C. So expect to see that notation elsewhere!
+2. The signature line of the 'getVedder()' function, the declaration of 'eddieVedder', and the declaration of 'chorus' have an asterisk in front of them. This denotes that the function returns [a pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) to a char, rather than a plain old single value. But be warned that putting an asterisk after 'char' or between 'char' and the identifier has the same meaning in C. So expect to see that notation elsewhere!
 
 ## What is the output of that program?
 
