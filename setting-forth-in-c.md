@@ -79,7 +79,7 @@ To avoid auto-closing, there are two work-arounds.
 system("pause");
 ```
 
-2. Run the executable using CMD from the same directory.
+2. Instead of double-clicking, run the executable from Windows CMD in the same working directory.
 
 ```
 >a.exe
