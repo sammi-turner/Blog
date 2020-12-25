@@ -61,11 +61,3 @@ Although the benchmarks of Python are unlikely to cause issues with simple termi
 ## But is it memory safe?
 
 Nothing in the Sugar header file or the basic functionality that I have mentioned involves the use of, let alone the misuse, of raw pointers. So Sugar itself is perfectly safe.
-
-## Programs using Sugar-Hpp
-
-A [todos app](https://github.com/sammi-turner/Sugar-Todos).
-
-A command-line [version of Yahtzee](https://github.com/sammi-turner/Sugar-Yahtzee).
-
-A meta-programming version of [Hello World](https://github.com/sammi-turner/Hello-Metaworld).
