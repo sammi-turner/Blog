@@ -142,8 +142,6 @@ So instead, we make our "getVedder()" function borrow some bytes from the operat
 ## Okay, that was cool. What now?
 
 * Read books on C.
-* Read online reference material relating to C.
-* Screw Udemy. You don't need them.
 * Feed cryptic error messages into your search engine of choice.
 * Feed your general questions about C into your search engine of choice.
 * Write non-trivial programs in C.
