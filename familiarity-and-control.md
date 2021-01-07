@@ -14,8 +14,7 @@ So I had to look up NIH on Wikipedia...
 > In computer programming, "NIH syndrome" refers to the erroneous belief that in-house developments are inherently better suited, more secure, more controlled,
 quicker to develop, and incur lower overall cost (including maintenance cost) than using existing implementations.
 
-Whenever I hear discussions about the wrongness or rightness of "reinventing the wheel" with a particular piece of software or an ecosystem of software, I think there are a
-couple of "Elephants In The Room" that both sides are ignoring in the debate.
+Whenever I hear discussions about the wrongness or rightness of "reinventing the wheel" with a particular piece of software or an ecosystem of software, I think there are a couple of "Elephants In The Room" that both sides are ignoring in the debate.
 
 ## The Familiarity Elephant
 
@@ -35,17 +34,11 @@ Want to become the world's leading expert on software X?
 
 Write software X yourself.
 
-Sadly, the people who do this work, generally rationalise not using existing tools in terms of those tools being hopelessly inadequate or downright bad.
-
-That might not be an ego-driven rationalisation in all cases.
-
-But in most cases, it probably is.
-
 ## The Control Elephant
 
 On the 6th September 2018, GitHub proudly announced that they had removed all the JQuery code from their website.
 
-Sure, JQuery was sort of legacy at the time. So what popular JavaScript framework or library did they replace it with?
+So what popular JavaScript framework or library did they replace it with?
 
 React?
 
@@ -67,8 +60,7 @@ This is not so astounding when you realise that React was created by Facebook fo
 
 ## The Double Standard
 
-When big companies "duplicate the effort" involved in making their own tools for tasks that are very similar to those already accomplished by other firms, no one seems to
-complain about that.
+When big companies "duplicate the effort" involved in making their own tools for tasks that are very similar to those already accomplished by other firms, no one seems to complain about that.
 
 The commercial sense of "driving your own bus" is immediately obvious. 
 
