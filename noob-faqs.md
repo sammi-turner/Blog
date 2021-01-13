@@ -39,20 +39,24 @@ Once you have identified your broad area of interest, type "beginner [area of in
 
 Q. I keep hearing jokes about programmers googling solutions to problems, looking up the answer and copy-pasting code from Stack Overflow. Is there any truth to this?
 
-A. The googling never stops!
+A. The googling never ends.
 
-Although code is often copy-pasted, the key is figuring out the following :
+Although code is often copy-pasted, the key is figuring out the following.
 
 1. What search terms to use.
 2. Which search results are relevant to your query.
 3. Which code snippets are relevant to the problem.
-4. Where to put those snippets.
-5. How to adapt those snippets to your specific problem.
+4. Where to put those code snippets.
+5. How to adapt those code snippets to your specific problem.
 
 Q. I want to use technology X, but I find its official documentation to be unreadable.
 
-A. I feel your pain!
+A. I feel your pain.
 
 Even the best documentation tends to make for very dry reading. Treat it as reference material rather than a textbook. While docs are not tutorials, the best documentation often reads more like a tutorial.
 
-For example, Arch Linux and its derivative distros have such an ardent following (myself included) because of the fantastic Arch Wiki.
+Q. Are code-along YouTube or Udemy video tutorials any good?
+
+A. The less experience you have with writing code, the more useful those tutorials will be.
+
+But once you become more familiar with the process of creating software, reference material, text books, and code found online, become better sources of information.
