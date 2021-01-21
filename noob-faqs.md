@@ -33,7 +33,7 @@ Q. I don't know what to build with code. Any suggestions?
 
 A. Try to narrow this question down to the area of programming that interests you.
 
-Is that web development? games? embedded systems? machine learning, a simple terminal application or something else entirely?
+Is that web development? games? embedded systems? machine learning? a simple terminal application? or something else entirely?
 
 Once you have identified your broad area of interest, type "beginner projects" with a search term for that area of interest into your favourite search engine and take a look at the suggestions you get back.
 
