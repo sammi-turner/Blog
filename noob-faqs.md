@@ -27,7 +27,7 @@ A. Programming isn't about memorising syntax or standard library functions. Its 
 
 Q. What text editor or IDE should I use?
 
-A. Try a selection of them and pick the one that you find the least confusing to begin with. Personal preference is key.
+A. Try a selection of them and pick the one that you find the least confusing to begin with. Personally, I have four editors on my main machine : VSCode, Atom, Vim and Gedit.
 
 Q. I don't know what to build with code. Any suggestions?
 
@@ -35,7 +35,7 @@ A. Try to narrow this question down to the area of programming that interests yo
 
 Is that web development? games? embedded systems? machine learning, a simple terminal application or something else entirely?
 
-Once you have identified your broad area of interest, type "beginner [area of interest] projects" into your favourite search engine.
+Once you have identified your broad area of interest, type "beginner projects" with a search term for that area of interest into your favourite search engine and take a look at the suggestions you get back.
 
 Q. I keep hearing jokes about programmers googling solutions to problems, looking up the answer and copy-pasting code from Stack Overflow. Is there any truth to this?
 
@@ -55,8 +55,8 @@ A. I feel your pain.
 
 Even the best documentation tends to make for very dry reading. Treat it as reference material rather than a textbook. While docs are not tutorials, the best documentation often reads more like a tutorial.
 
-Q. Are code-along YouTube or Udemy video tutorials any good?
+Q. Are code-along YouTube or Udemy videos any good?
 
 A. The less experience you have with writing code, the more useful those tutorials will be.
 
-But once you become more familiar with the process of creating software, reference material, text books, and code found online, become better sources of information.
+But once you become more familiar with the process of creating software, their usefulness will diminish to the point where reference material, text books, and code found online become better sources of information.
