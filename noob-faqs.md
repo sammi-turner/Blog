@@ -27,7 +27,7 @@ A. Programming isn't about memorising syntax or standard library functions. Its 
 
 Q. What text editor or IDE should I use?
 
-A. Try a selection of them and pick the one that you find the least confusing to begin with. Personally, I have four editors on my main machine : VSCode, Atom, Vim and Gedit.
+A. Try a selection of them and pick the one that you find the least confusing to begin with. Personally, I have three editors on my main machine : VSCode, Notepadqq and Vim.
 
 Q. I don't know what to build with code. Any suggestions?
 
