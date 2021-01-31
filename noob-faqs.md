@@ -23,11 +23,11 @@ ALWAYS more to learn.
 
 Q. How long does it take to master a programming language?
 
-A. Programming isn't about memorising syntax or standard library functions. Its about solving problems!
+A. Programming isn't about memorising syntax or standard library functions. Its about solving problems.
 
 Q. What text editor or IDE should I use?
 
-A. Try a selection of them and pick the one that you find the least confusing to begin with. Personally, I have three editors on my main machine : VSCode, Notepadqq and Vim.
+A. Try a selection of them and pick the one that you find the least confusing to begin with. Personally, I have four editors on my main machine : Emacs, Notepadqq, VSCode and Vim.
 
 Q. I don't know what to build with code. Any suggestions?
 
@@ -43,11 +43,11 @@ A. The googling never ends.
 
 Although code is often copy-pasted, the key is figuring out the following.
 
-1. What search terms to use.
-2. Which search results are relevant to your query.
-3. Which code snippets are relevant to the problem.
-4. Where to put those code snippets.
-5. How to adapt those code snippets to your specific problem.
+* What search terms to use.
+* Which search results are relevant to your query.
+* Which code snippets are relevant to the problem.
+* Where to put those code snippets.
+* How to adapt those code snippets to your specific problem.
 
 Q. I want to use technology X, but I find its official documentation to be unreadable.
 
@@ -59,4 +59,4 @@ Q. Are code-along YouTube or Udemy videos any good?
 
 A. The less experience you have with writing code, the more useful those tutorials will be.
 
-But once you become more familiar with the process of creating software, their usefulness will diminish to the point where reference material, text books, and code found online become better sources of information.
+But once you become familiar with the process of creating software, their usefulness will diminish to the point where reference material, text books, and code found online become better sources of information.
