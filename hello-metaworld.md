@@ -26,12 +26,12 @@ int main() {
   hello[3] = "  say \"Hello Metaworld\\n\";";
   hello[4] = "}";
 
-  loopThrough(i, 5) {
+  loop(i, 5) {
     line = hello[i] + "\n";
     fileAppend("meta.cpp", line);
   }
 
-  system("g++ meta.cpp -o meta && ./meta");
+  shell("g++ meta.cpp -o meta && ./meta");
 }
 ```
 
