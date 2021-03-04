@@ -1,11 +1,15 @@
 # Blog
 
-Why aren't more people blogging in markdown, right here on GitHub?
+The markdown files in this repo are all linked in the "blog" section of my personal website.
 
-* Writing [markdown](https://wordpress.com/support/markdown-quick-reference/) is fun.
+## Message In A Bottle
 
-* Wrestling with a blogging platform's built-in UI is no fun. Especially when you don't have to.
+Given that my personal site is not server-side rendered, it will be practically invisible to Google. However, my personal site is linked from my GitHub and LinkedIn profiles, so the number of readers might be non-zero? I have no idea :)
 
-* Static Site Generators (SSGs) that use markdown files as input only exist to reach non-technical audiences. So why use them for a technical blog?
+## No comments section?
 
-* If there is something in a post that needs correcting or extending, then you are free to submit a pull request.
+Nope. There is no comments section.
+
+But if you would like to fix a typo, correct something inaccurate that I wrote, or would like to expand on what I have written, then by all means, send me a pull request here on GitHub.
+
+To make contact with me, you can reach me via LinkedIn or use the "contact" page on my website.
