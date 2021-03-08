@@ -10,7 +10,7 @@ Learning what is common to languages A and B is instructive. So is learning the 
 
 Q. What programming language is good for beginners?
 
-A. One that has a large community online. The word "community" in this context, means that totality of information about that technology online, and its entire user base.
+A. One that has a large community online. The word "community" in this context, means the totality of information about that technology online, and its entire user base.
 
 Q. What operating system should I use for programming?
 
@@ -27,7 +27,7 @@ A. Programming isn't about memorising syntax or standard library functions. Its 
 
 Q. What text editor or IDE should I use?
 
-A. Try a selection of them and pick the one that you find the least confusing to begin with. Personally, I have four editors on my main machine : Emacs, Notepadqq, VSCode and Vim.
+A. Try a selection of them and pick the one that you find the least confusing to begin with. Personally, I have four editors on my main machine : Emacs, Mousepad, VSCodium and Vim.
 
 Q. I don't know what to build with code. Any suggestions?
 
