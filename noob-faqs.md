@@ -1,5 +1,7 @@
 # Programming Noob FAQs
 
+>"There are only two kinds of languages: the ones people complain about and the ones nobody uses.” -Bjarne Stroustrup
+
 Q. What programming language should I learn?
 
 A. When I say that the correct answer is "more than one", I am not being snarky.
