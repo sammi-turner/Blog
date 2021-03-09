@@ -2,8 +2,7 @@
 
 ## Malloc and freeeeeee
 
-```
-Be it no concern  
+>Be it no concern  
 Point of no return  
 Go forward in reverse
 This I will recall
@@ -17,7 +16,6 @@ A planet out of sight
 Nature drunk and high
 Oh I'm free
 I'm free...
-```
 
 As you can see from those lyrics, dynamic memory allocation in C strongly reminds me of an [Eddie Vedder song](https://www.youtube.com/watch?v=KDlsH8MbDbs).
 
