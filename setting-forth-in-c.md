@@ -60,8 +60,7 @@ char* getVedder() {
 }
 
 int main() {
-  char* chorus;
-  chorus = getVedder();
+  char* chorus = getVedder();
   printf("\n%s\n\n%s\n\n", chorus, chorus);
   free(chorus);
 }
@@ -134,10 +133,9 @@ So instead, we make our 'getVedder()' function borrow some bytes from the operat
 
 ## What does the main function do?
 
-1. Declares a pointer to a 'chorus' array.
-2. Sets chorus equal to the result of calling 'getVedder()'.
-3. Prints a format string where percent-s is a placeholder for 'chorus' and slash-n denotes a line break.
-4. Frees up the memory borrowed earlier using malloc.
+1. Sets chorus equal to the result of calling 'getVedder()'.
+2. Prints a format string where percent-s is a placeholder for 'chorus' and slash-n denotes a line break.
+3. Frees up the memory borrowed earlier using malloc.
 
 ## Okay, that was cool. What now?
 
