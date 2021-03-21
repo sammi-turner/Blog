@@ -33,7 +33,7 @@ The standard library of C is also rather sparse, and the APIs provided are platf
 
 ## Why does C handle memory differently than most other languages?
 
-C was creaated in a time when hardware constraints were a much more pressing concern than they are now (December 2020).
+C was created in a time when hardware constraints were a much more pressing concern than they are now (December 2020).
 
 But even today, C is widely used in resource-constrained environments like device drivers, embedded systems and operating system kernels.
 
@@ -52,17 +52,17 @@ Instead, I will present the following program as an appetiser.
 #include <stdlib.h>
 #include <string.h>
 
-char *getVedder() {
-  char *eddieVedder;
+char* getVedder() {
+  char* eddieVedder;
   eddieVedder = malloc(sizeof(char) * 50);
-  strcpy(eddieVedder, "I'm freeeee!\nSetting forth in the universe...");
+  eddieVedder = strdup("I'm freeeee!\nSetting forth in the universe...");
   return eddieVedder;
 }
 
 int main() {
-  char *chorus;
+  char* chorus;
   chorus = getVedder();
-  printf("%s\n\n%s\n\n", chorus, chorus);
+  printf("\n%s\n\n%s\n\n", chorus, chorus);
   free(chorus);
 }
 ```
@@ -113,30 +113,30 @@ $ ./a.out
 
 ## Why are there so many damn asterisks in there?
 
-1. Nearly all programming languages use a single asterisk to denote multiplication, and so does this code snippet, on the second line of the '*getVedder()' function body.
+1. Nearly all programming languages use a single asterisk to denote multiplication, and so does this code snippet, on the second line of the 'getVedder()' function body.
 
-2. The signature line of the 'getVedder()' function, the declaration of 'eddieVedder', and the declaration of 'chorus' have an asterisk in front of them. This denotes that the function returns [a pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) to a char, rather than a plain old single value. But be warned that putting an asterisk after 'char' or between 'char' and the identifier has the same meaning in C. So expect to see that notation elsewhere!
+2. The signature line of the 'getVedder()' function, the declaration of 'eddieVedder', and the declaration of 'chorus' have an asterisk right after'char'. This denotes that the function returns [a pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) to a char, rather than a plain old single value. But be warned that putting an asterisk before the identifier or between 'char' and the identifier has the same meaning in C. So expect to see that notation elsewhere!
 
 ## What is the output of that program?
 
 After successful compilation, running the executable makes your terminal emulator sing the chorus from "Setting Forth".
 
-Of course, we could do that with a simple "printf" statement in the main function. But that wouldn't help us explain dynamic memory allocation, would it?
+Of course, we could do that with a simple 'printf' statement in the main function. But that wouldn't help us explain dynamic memory allocation, would it?
 
-So instead, we make our "getVedder()" function borrow some bytes from the operating system with "malloc", and then call "free()" when we no longer need them.
+So instead, we make our 'getVedder()' function borrow some bytes from the operating system with 'malloc', and then call 'free()' when we no longer need them.
 
 ## What does getVedder() do?
 
-1. Declares a pointer to a local "eddieVedder" array.
-2. Reserves a chunk of memory for the array using "malloc".
+1. Declares a pointer to a local 'eddieVedder' array.
+2. Reserves a chunk of memory for the array using 'malloc'.
 3. Copies our hard-coded lyrics to the array.
 4. Returns a pointer to the array.
 
 ## What does the main function do?
 
-1. Declares a pointer to a "chorus" array.
-2. Sets chorus equal to the result of calling "getVedder()".
-3. Prints a format string where percent-s is a placeholder for "chorus" and slash-n denotes a line break.
+1. Declares a pointer to a 'chorus' array.
+2. Sets chorus equal to the result of calling 'getVedder()'.
+3. Prints a format string where percent-s is a placeholder for 'chorus' and slash-n denotes a line break.
 4. Frees up the memory borrowed earlier using malloc.
 
 ## Okay, that was cool. What now?
