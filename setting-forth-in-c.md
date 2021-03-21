@@ -53,8 +53,7 @@ Instead, I will present the following program as an appetiser.
 #include <string.h>
 
 char* getVedder() {
-  char* eddieVedder;
-  eddieVedder = malloc(sizeof(char) * 50);
+  char* eddieVedder = malloc(sizeof(char) * 50);
   eddieVedder = strdup("I'm freeeee!\nSetting forth in the universe...");
   return eddieVedder;
 }
@@ -126,10 +125,9 @@ So instead, we make our 'getVedder()' function borrow some bytes from the operat
 
 ## What does getVedder() do?
 
-1. Declares a pointer to a local 'eddieVedder' array.
-2. Reserves a chunk of memory for the array using 'malloc'.
-3. Copies our hard-coded lyrics to the array.
-4. Returns a pointer to the array.
+1. Reserves a chunk of memory for the 'eddieVedder' array using 'malloc'.
+2. Copies our hard-coded lyrics to the array.
+3. Returns a pointer to the array.
 
 ## What does the main function do?
 
