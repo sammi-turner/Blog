@@ -113,7 +113,7 @@ $ ./a.out
 
 1. Nearly all programming languages use a single asterisk to denote multiplication, and so does this code snippet, on the second line of the 'getVedder()' function body.
 
-2. The signature line of the 'getVedder()' function, the declaration of 'eddieVedder', and the declaration of 'chorus' have an asterisk right after 'char'. This denotes that the function returns [a pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) to a char, rather than a plain old single value. But be warned that putting an asterisk before the identifier or between 'char' and the identifier has the same meaning in C. So expect to see that notation elsewhere!
+2. In the snippet, you will also see asterisks after the data type 'char'. This denotes that the function returns [a pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) to a char, rather than a single char. But be warned that putting an asterisk before the identifier or between 'char' and the identifier also has the same meaning in C. So expect to see those notations elsewhere!
 
 ## What is the output of that program?
 
