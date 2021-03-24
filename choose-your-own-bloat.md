@@ -45,7 +45,7 @@ I addressed this issue in [another blog post](https://github.com/sammi-turner/Bl
 
 Simply say a prayer to Malloc and that prayer will be answered with bytes.
 
-But don't forget to [give thanks with 'free'](https://www.youtube.com/watch?v=Fgb8l2Ve8vo) to the RAM God when you're done.
+But don't forget to give thanks to the RAM God with 'free' when you're done, or he will curse you with [memory leaks](https://www.youtube.com/watch?v=Fgb8l2Ve8vo).
 
 ## That C Function You Want Doesn't Exist
 
