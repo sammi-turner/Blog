@@ -33,6 +33,8 @@ Array out of bounds? Say hello to [undefined behaviour](https://en.wikipedia.org
 
 Code compiles okay? You might still get a [segfault](https://en.wikipedia.org/wiki/Segmentation_fault) when you run the binary.
 
+Code compiles and runs? It might do what you intended, but then accuse you of [stack smashing](https://stackoverflow.com/questions/1345670/stack-smashing-detected#1347464) afterwards.
+
 From a business standpoint, those are headaches that you simply don't need.
 
 But from a "learning programming" standpoint, clearing the obstacles in your path will only make you a better programmer.
@@ -48,5 +50,3 @@ But don't forget to [give thanks with 'free'](https://www.youtube.com/watch?v=Fg
 ## That C Function You Want Doesn't Exist
 
 So why not write it yourself?
-
-
