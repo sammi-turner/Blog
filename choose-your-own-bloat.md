@@ -41,11 +41,9 @@ But from a "learning programming" standpoint, clearing the obstacles in your pat
 
 I addressed this issue in [another blog post](https://github.com/sammi-turner/Blog/blob/main/setting-forth-in-c.md). Its not rocket science.
 
-Want to return a pointer to an array from a function? You'll need a loan for that in C.
-
 Simply say a prayer to Malloc and that prayer will be answered with bytes.
 
-Don't forget to [give thanks with 'free'](https://www.youtube.com/watch?v=Fgb8l2Ve8vo) to the RAM God when you're done.
+But don't forget to [give thanks with 'free'](https://www.youtube.com/watch?v=Fgb8l2Ve8vo) to the RAM God when you're done.
 
 ## That C Function You Want Doesn't Exist
 
