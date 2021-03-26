@@ -29,7 +29,7 @@ Q. How long does it take to master a programming language?
 
 A. Programming isn't about memorising syntax or standard library functions. Its about solving problems.
 
-Q. What text editor or IDE should I use?
+Q. What code editor or IDE should I use?
 
 A. Try a selection of them and pick the one that you find the least confusing to begin with. Personally, I have three editors on my main machine : Mousepad, Vim and VSCodium.
 
