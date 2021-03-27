@@ -7,7 +7,7 @@ According to Wikipedia...
 > Such a program is very simple in most programming languages, and is often used to illustrate the basic syntax of a programming language. It is often the first program written by people learning to code. It can also be used as a sanity test to make sure that a computer language is correctly installed, and that
 the operator understands how to use it.
 
-By contrast, a [Hello, Metaworld!](https://github.com/sammi-turner/Hello-Metaworld) program, is a parent computer program that when run, produces a child program that yields the output "Hello, Metaworld!".
+By contrast, a Hello, Metaworld! program, is a parent computer program that when run, produces a child program that yields the output "Hello, Metaworld!".
 
 Here is an example of such a program, written in C++, using the GNU compiler.
 
