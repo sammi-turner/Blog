@@ -16,10 +16,6 @@ Q. What programming language is good for beginners?
 
 A. One that has a large community online. The word "community" in this context, means the totality of information about that technology online, and its entire user base.
 
-Q. What operating system should I use for programming?
-
-A. Although many professional programmers find Windows 10 or MacOS to be ideal for their use case, I am a strong advocate of starting your programming journey with a Linux distro instead. Not because Linux involves less work than Windows or MacOS, but because it offers more opportunities to configure your system, or fix it, WITH CODE.
-
 Q. How long does it take to learn to code?
 
 A. You could be writing rudimentary programs in a single afternoon. But by the same token, you will never arrive at a point where the learning stops. There is
@@ -31,7 +27,7 @@ A. Programming isn't about memorising syntax or standard library functions. Its 
 
 Q. What code editor or IDE should I use?
 
-A. Try a selection of them and pick the one that you find the least confusing to begin with. Personally, I have three editors on my main machine : Mousepad, Vim and VSCodium.
+A. Try a selection of them and pick the one that you find the least confusing to begin with.
 
 Q. I don't know what to build with code. Any suggestions?
 
