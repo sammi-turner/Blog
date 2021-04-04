@@ -37,7 +37,7 @@ C was created in a time when hardware constraints were a much more pressing conc
 
 But even today, C is widely used in resource-constrained environments like device drivers, embedded systems and operating system kernels.
 
-C is also still popular in the GNU/Linux desktop userland, which has a culture of writing applications that are not resource-heavy.
+C is also still popular in the desktop userland of open source unix-like operating systems, which have a culture of writing applications that are not resource-heavy.
 
 ## What the heck is a pointer anyway?
 
