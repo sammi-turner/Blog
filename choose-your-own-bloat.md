@@ -22,10 +22,12 @@ specifically NOT to use them, due to their inherent security vulnerabilities or 
 
 I'm sure that this has made many folk give up on C and switch to one with a larger toolkit for common tasks.
 
-## Ncurses To The Rescue
+## Use non-standard libraries for user input
 
-By far the biggest way to avoid pain with C, is to use a curses library for ANY program that requires user input in the terminal. That won't
+By far the biggest way to avoid pain with C, is to use a non-standard library for ANY program that requires user input in the terminal. That won't
 eliminate all issues with the standard library, but it definitely helps.
+
+Specifically, I am thinking of 'ncurses.h' for GNU/Linux (or Windows, via Cygwin) and 'conio.h' for Windows.
 
 ## Assorted Weirdness
 
