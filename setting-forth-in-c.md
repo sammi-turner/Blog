@@ -53,15 +53,15 @@ Instead, I will present the following program as an appetiser.
 #include <string.h>
 
 char* getVedder() {
-  char* eddieVedder = malloc(sizeof(char) * 50);
-  eddieVedder = strdup("I'm freeeee!\nSetting forth in the universe...");
-  return eddieVedder;
+    char* eddieVedder = malloc(sizeof(char) * 50);
+    eddieVedder = strdup("I'm freeeee!\nSetting forth in the universe...");
+    return eddieVedder;
 }
 
 int main() {
-  char* chorus = getVedder();
-  printf("\n%s\n\n%s\n\n", chorus, chorus);
-  free(chorus);
+    char* chorus = getVedder();
+    printf("\n%s\n\n%s\n\n", chorus, chorus);
+    free(chorus);
 }
 ```
 
