@@ -77,11 +77,7 @@ To avoid auto-closing, there are two work-arounds.
 system("pause");
 ```
 
-2. Instead of double-clicking, run the executable from Windows CMD in the same working directory.
-
-```
->a.exe
-```
+2. Instead of double-clicking, run the executable from Windows Powershell or CMD in the same working directory.
 
 ## How do I compile C code with the GNU compiler from the command line?
 
@@ -103,7 +99,13 @@ Run this command on Windows Powershell :
 >./a.exe
 ```
 
-Or this command on GNU/Linux :
+Or Windows CMD :
+
+```
+>a.exe
+```
+
+Or on GNU/Linux :
 
 ```
 $ ./a.out
