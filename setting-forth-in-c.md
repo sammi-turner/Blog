@@ -97,10 +97,10 @@ This will produce an exectubale file with the name "a" and either the file exten
 
 From the folder containing the executable, run
 
-Run this command on Windows CMD :
+Run this command on Windows Powershell :
 
 ```
->a.exe
+>./a.exe
 ```
 
 Or this command on GNU/Linux :
