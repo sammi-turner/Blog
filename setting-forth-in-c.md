@@ -105,7 +105,7 @@ Or Windows CMD :
 >a.exe
 ```
 
-Or on GNU/Linux :
+Or GNU/Linux :
 
 ```
 $ ./a.out
