@@ -96,7 +96,7 @@ From the folder containing the executable, run
 Run this command on Windows Powershell :
 
 ```
->a.exe
+>./a.exe
 ```
 
 Or Windows CMD :
