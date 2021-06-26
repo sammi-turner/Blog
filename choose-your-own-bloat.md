@@ -27,7 +27,7 @@ I'm sure that this has made many folk give up on C and switch to one with a larg
 By far the biggest way to avoid pain with C, is to use a non-standard library for ANY program that requires user input in the terminal. That won't
 eliminate all issues with the standard library, but it definitely helps.
 
-Specifically, I am thinking of 'ncurses.h' for GNU/Linux (or Windows, via Cygwin) and 'conio.h' for Windows.
+Specifically, I am thinking of 'ncurses.h' for GNU/Linux (or Windows, via Cygwin) and 'conio.h' for Windows MSVC compiler.
 
 ## Assorted Weirdness
 
