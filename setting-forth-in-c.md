@@ -69,9 +69,11 @@ int main() {
 
 ## Why are there so many asterisks in that snippet?
 
-1. Nearly all programming languages use a single asterisk to denote multiplication, and so does this code snippet, on the second line of the 'getVedder()' function body.
+In the snippet, you will see asterisks after the data type 'char'.
 
-2. In the snippet, you will also see asterisks after the data type 'char'. This denotes that the function returns [a pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) to a char, rather than a single char. But be warned that putting an asterisk before the identifier or between 'char' and the identifier also has the same meaning in C. So expect to see those notations elsewhere!
+This denotes that the function returns [a pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) to a char, rather than a single char. But be warned that putting an asterisk before the identifier or between 'char' and the identifier also has the same meaning in C. So expect to see those notations elsewhere.
+
+Of course, its worth noting that asterisks can also mean 'multiply', within the same code block.
 
 ## What is the output of that program?
 
