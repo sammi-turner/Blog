@@ -41,7 +41,7 @@ C is also still popular in the desktop userland of open source unix-like operati
 
 ## What the heck is a pointer anyway?
 
-Sadly, the more general and abstract the discussion gets with regard to pointers, the more confused the student is likely to get.
+Sadly, the more general and abstract the discussion becomes with regard to pointers, the more confused the student is likely to get.
 
 So you won't find any abstract diagrams of integers sitting in pigeon holes with arrows pointing in all directions in this blog post.
 
@@ -67,7 +67,7 @@ int main() {
 }
 ```
 
-## Why are there so many asterisks in that snippet?
+## Why are there so many asterisks there?
 
 In the snippet, you will see asterisks after the data type 'char'.
 
