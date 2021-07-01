@@ -67,13 +67,11 @@ int main() {
 }
 ```
 
-## Why are there so many asterisks there?
+## What does the asterisk after char mean?
 
-In the snippet, you will see asterisks after the data type 'char'.
+This denotes [a pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) to an array of chars, rather than a single char. But be warned that putting an asterisk before the identifier or between 'char' and the identifier has the same meaning in C. So expect to see those notations elsewhere.
 
-This denotes that the function returns [a pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) to a char, rather than a single char. But be warned that putting an asterisk before the identifier or between 'char' and the identifier also has the same meaning in C. So expect to see those notations elsewhere.
-
-Of course, its worth noting that asterisks can also mean 'multiply', within the same code block.
+Of course, its worth noting that asterisks also denote the 'multiply' operation in arithmetic.
 
 ## What is the output of that program?
 
