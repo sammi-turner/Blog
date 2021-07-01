@@ -33,7 +33,7 @@ The standard library of C is also rather sparse, and the APIs provided are platf
 
 ## Why does C handle memory differently than most other languages?
 
-C was created in a time when hardware constraints were a much more pressing concern than they are now (December 2020).
+C was created in a time when hardware constraints were a much more pressing concern than they are now (July 2021).
 
 But even today, C is widely used in resource-constrained environments like device drivers, embedded systems and operating system kernels.
 
@@ -99,4 +99,5 @@ So instead, we make our 'getVedder()' function borrow some bytes from the operat
 - If you are using a unix-like desktop operating system, then the [man pages](https://en.wikipedia.org/wiki/Man_page) should help you out.
 - Check out C programming YouTubers like [Jacob Sorber](https://www.youtube.com/watch?v=liWdn92SAvs)
 - Write non-trivial applications in C.
-- Have fun!
+
+## Have fun!
